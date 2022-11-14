@@ -1,0 +1,1 @@
+delete from cart where id_barang="1";

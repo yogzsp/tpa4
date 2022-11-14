@@ -1,0 +1,32 @@
+insert into user values(null,"Yogi","yogi@gmail.com","1234","pembeli"),
+(null,"Surya","surya@gmail.com","1234","pembeli"),
+(null,"Prana","prana@gmail.com","1234","pembeli"),
+(null,"nyoman","nyoman@gmail.com","1234","penjual"),
+(null,"rama","rama@gmail.com","1234","penjual"),
+(null,"nisa","nisa@gmail.com","1234","pembeli"),
+(null,"maria","maria@gmail.com","1234","penjual"),
+(null,"ari","ari@gmail.com","1234","penjual"),
+(null,"jihad","jihad@gmail.com","1234","pembeli"),
+(null,"alfa","alfa@gmail.com","1234","penjual");
+
+insert into barang values(null,4,"permen","makanan",10,1000),
+(null,4,"fanta","minuman",10,5000),
+(null,8,"komputer","elektronik",15,7000000),
+(null,4,"bolu","makanan",10,5000),
+(null,4,"pepsi","minuman",10,5000),
+(null,8,"stylus pen","elektronik",12,79000),
+(null,4,"mie sedap","makanan",100,2000),
+(null,4,"cola","minuman",10,5000),
+(null,8,"monitor","elektronik",10,1000000),
+(null,7,"motor","elektronik",1,24000000);
+
+insert into cart values(null,1,3,2,"COD","sukses",14000000,date(now())),
+(null,1,2,2,"COD","sukses",10000,date(now())),
+(null,6,2,2,"COD","sukses",10000,date(now())),
+(null,6,9,2,"COD","sukses",2000000,date(now())),
+(null,6,2,2,"COD","sukses",10000,date(now())),
+(null,6,5,1,"COD","sukses",79000,date(now())),
+(null,9,1,1,"COD","sukses",1000,date(now())),
+(null,9,1,1,"COD","sukses",1000,date(now())),
+(null,9,1,1,"COD","sukses",1000,date(now())),
+(null,9,1,1,"COD","sukses",1000,date(now()));
